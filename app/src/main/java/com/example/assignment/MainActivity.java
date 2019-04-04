@@ -152,8 +152,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 final MeasurementReadTask measurementsTask = new MeasurementReadTask();
                 measurementsTask.execute(measurementsUrl);
 
-/*                final WristbandReadTask wristbandTask = new WristbandReadTask();
-                wristbandTask.execute(wristbandUrl);*/
+                final WristbandReadTask wristbandTask = new WristbandReadTask();
+                wristbandTask.execute(wristbandUrl);
             }
         }, delay, period);
 
